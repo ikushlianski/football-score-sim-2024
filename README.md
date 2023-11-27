@@ -16,4 +16,4 @@ nest start <package-name>
 
 > Be sure you have nest CLI installed globally
 
-
+Alternatively, you can run `pnpm start:auth:dev` command to launch the `auth` app. See `package.json` scripts for more details.
