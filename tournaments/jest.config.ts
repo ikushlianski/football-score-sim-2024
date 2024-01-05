@@ -3,8 +3,8 @@ export default {
   displayName: 'tournaments',
   preset: '../jest.preset.js',
   testEnvironment: 'node',
-  transform: {
-    '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
+  "transform": {
+    "^.+\\.(t|j)s?$": ["@swc/jest"]
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
   coverageDirectory: '../coverage/tournaments',

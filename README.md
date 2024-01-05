@@ -10,6 +10,7 @@ Use Nx plugins so you can generate new apps and libs easily.
 
 1. Ensure you have `nx` installed globally: `npm install -g nx`
 2. Run `nx g @nx/nest:app <microservice-name>` to create a new microservice
+3. Switch to SWC compiler by following the instructions [here](https://docs.nestjs.com/recipes/swc). See how SWC is configured in the existing microservices for reference.
 
 Learn more about [Nx generators on the docs](https://nx.dev/plugin-features/use-code-generators).
 
