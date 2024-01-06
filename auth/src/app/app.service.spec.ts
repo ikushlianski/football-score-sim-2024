@@ -15,11 +15,7 @@ describe('AppService', () => {
 
   describe('getData', () => {
     it('should return "Hello API"', () => {
-      expect(service.getData()).toEqual({ message: [
-        'Player1',
-        'Player2',
-        'Player3',
-        ] });
+      expect(service.getData()).toEqual({ message: 'Hello API' });
     });
   });
 });
