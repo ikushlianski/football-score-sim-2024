@@ -17,6 +17,13 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
-    "paths": {}
+    "paths": {
+      "@app/ddd": [
+        "libs/ddd/src"
+      ],
+      "@app/ddd/*": [
+        "libs/ddd/src/*"
+      ]
+    }
   }
 }
